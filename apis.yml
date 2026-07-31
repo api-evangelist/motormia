@@ -1,7 +1,30 @@
 aid: motormia
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/motormia.png
 name: MotorMia
-description: MotorMia is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  MotorMia is an AI-powered automotive platform for car enthusiasts, built around
+  Mia, an AI modding partner, build advisor, and performance analyst. Users add
+  their vehicles, set build and performance goals, and Mia returns personalized
+  upgrade recommendations across engine, transmission, brakes, suspension, cooling,
+  and exhaust systems, tuned to the user's level of mechanical experience. The
+  platform is backed by a proprietary automotive intelligence dataset combining
+  over 5 million aftermarket parts, more than 50 million fitment records, and
+  real-world enthusiast build behavior from 1M+ community projects, and ships as
+  iOS and Android mobile apps plus a web store. Founded in 2023 and headquartered
+  in Scottsdale, Arizona, MotorMia raised $8M led by investors including Lerer
+  Hippeau and Seedcamp. As of this profile MotorMia is a consumer mobile product
+  and publishes no public developer API, documentation, or specification surface.
 url: https://raw.githubusercontent.com/api-evangelist/motormia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Automotive
+- Aftermarket
+- Car Modification
+- Artificial Intelligence
+- Vehicle Tuning
+- Parts Fitment
+- Mobile App
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://motormia.co
+  url: https://www.motormia.co
+- type: Blog
+  url: https://www.motormia.co/blog
+- type: PrivacyPolicy
+  url: https://cdn.prod.website-files.com/6700750b91b503fe8622a511/6700750b91b503fe8622a655_PRIVACY%20POLICY.pdf
+- type: Store
+  url: https://store.motormia.co
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
